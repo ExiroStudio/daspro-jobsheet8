@@ -6,7 +6,11 @@ public class Tugas230 {
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
         sc.close();
-       
+        if (n < 3) {
+            System.out.println("Nilai n minimal harus 3");
+        } else {
+           
+        }
 
     }
 }
